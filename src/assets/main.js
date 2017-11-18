@@ -4,7 +4,11 @@ $(function() {
     url: 'https://www.codeschool.com/users/vignadara.json',
     dataType: 'jsonp',
     success: function(response) {
+<<<<<<< HEAD
       addCourses(response.courses.in_progress);
+=======
+      addCourses(response.courses.completed);
+>>>>>>> b7fd7731274b62e188aae8d8140636084e9164ba
     }
   });
 
