@@ -5,6 +5,7 @@ $(function() {
     dataType: 'jsonp',
     success: function(response) {
       addCourses(response.courses.in_progress);
+
     }
   });
 
